@@ -10,7 +10,7 @@ It is a mini-project that displays key computer parameters (temperatures, CPU an
 - **Python 3.10+**
 - **AIDA64** (Extreme или Engineer)
 - **Arduino (Nano / Uno / Mega / др.)**
-- **OLED-дисплей** (0.96", I2C, SSD1306)
+- **OLED-дисплей** (0.96", I2C, SSD1306) - подойдет любой на самом деле.
 - **Библиотеки Arduino**: `Adafruit_GFX`, `Adafruit_SSD1306`
 - **Библиотеки Python**: `pyserial`, `python_aida64`
 
