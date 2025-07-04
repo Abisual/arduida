@@ -44,11 +44,11 @@ def send_to_arduino(lines, port="COM3", baudrate=9600):
             for line in lines:
                 ser.write((line + "\n").encode('utf-8'))
                 time.sleep(0.05)
-            print("✅ Отправлено:")
+            print("Отправлено:")
             for l in lines:
                 print(l)
     except Exception as e:
-        print(f"❌ Ошибка при отправке: {e}")
+        print(f"Ошибка при отправке: {e}")
 
 if __name__ == "__main__":
     while True:
