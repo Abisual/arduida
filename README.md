@@ -11,7 +11,7 @@ Monitoring is carried out using [AIDA64](https://www.aida64.com/). A Python scri
 - **Python 3.10+**
 - **AIDA64**
 - **Arduino (Nano / Uno / Mega / etc.) or ESP32**
-- **OLED display** (0.96", I2C, SSD1306) — any model will work
+- **OLED display** (0.96", I2C, SSD1306) — any model will work or ILI9341 for esp32
 - **Arduino Libraries**: `Adafruit_GFX`, `Adafruit_SSD1306` or `Adafruit_ILI9341`
 - **Python Libraries**: `pyserial`, `python_aida64`
 
